@@ -1,0 +1,1 @@
+import{j as u}from"./index-acfe17ae.js";function i({size:t="large",placeholder:e,value:s,onChange:l,label:x,...n}){const r=t==="large"?"3xl":"xl";return u.jsx("input",{type:"text",placeholder:e,value:s,onChange:l,className:["input","w-full",`text-${r}`].join(" "),...n})}export{i as I};

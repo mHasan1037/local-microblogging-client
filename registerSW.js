@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/local-microblogging-client/sw.js', { scope: '/local-microblogging-client/' })})}
